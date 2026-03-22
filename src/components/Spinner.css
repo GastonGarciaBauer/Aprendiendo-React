@@ -1,0 +1,39 @@
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 6px solid #ccc;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+.spinner-red{
+  border-top: 6px solid red;
+}
+
+.spinner-blue{
+  border-top: 6px solid blue;
+}
+
+.spinner-green{
+  border-top: 6px solid green;
+}
+
+.spinner-black{
+  border-top: 6px solid black;
+}
+
+.spinner-purple{
+  border-top: 6px solid purple;
+}
+
+.spinner-orange{
+  border-top: 6px solid orange;
+}
+
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

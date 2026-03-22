@@ -1,0 +1,22 @@
+.post-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.message {
+  background: #c4e5cd;
+  padding: 10px;
+  border-radius: 6px;
+  border-style: dashed;
+}
+
+form input,
+form textarea {
+  width: 150%;
+}
+
+form button {
+    align-self: center;
+}
