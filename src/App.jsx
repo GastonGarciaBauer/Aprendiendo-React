@@ -6,7 +6,7 @@ import Spinner from './components/Spinner'
 import TasksList from './components/TasksList'
 import ApplicationForm from './components/ApplicationForm'
 import ApplicationForm1 from './components/ApplicationForm1'
-import TheBoss from './components/theBoss'
+import TheBoss from './components/TheBoss'
 import TheBoss1 from './components/TheBoss1'
 
   function App() { 
