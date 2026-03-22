@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import "./ApplicationForm.css"
 import Spinner from './Spinner';
-import { PostService } from '../services/postService';
+import { PostService } from '../services/PostService';
 
 const ApplicationForm = () => {
   
